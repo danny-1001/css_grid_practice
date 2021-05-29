@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes {
+    border: 1rem solid black;
+    
+}
+.box{
+    padding: 5rem;
+}
+.box1{
+    background: blue;
+    grid-column: 1/6;
+    
+}
+.box2{
+    background: blueviolet;
+    grid-row: 1/5;
+    
+}
+.box3{
+    background: red;
+    
+
+}
+.box4{
+    background: green;
+    
+}
+.box5{
+    background: greenyellow;
+    
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
